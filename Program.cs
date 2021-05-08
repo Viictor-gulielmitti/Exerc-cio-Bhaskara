@@ -28,7 +28,7 @@ namespace Exerc_cio_Bhaskara
                 delta = Math.Pow(b, 2) - (4 * a * c);
 
 
-                if (delta > 0)
+                if (delta >= 0)
                 {
                     double raizQuad = Math.Sqrt(delta);
                     Console.WriteLine($"\ndelta = {delta} A sua Raiz Quadrada é {raizQuad:N1} ");
